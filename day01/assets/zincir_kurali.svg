@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 440" width="1300" height="440" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B1F"/><stop offset="0.6" stop-color="#120F35"/><stop offset="1" stop-color="#1E0A33"/></linearGradient>
+  <radialGradient id="glow" cx="0.85" cy="0.45" r="0.5"><stop offset="0" stop-color="#FB7185" stop-opacity="0.42"/><stop offset="1" stop-color="#FB7185" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.45"><stop offset="0" stop-color="#7C3AED" stop-opacity="0.35"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <linearGradient id="vurgu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#FB7185"/></linearGradient>
+  <linearGradient id="isik" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.07"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <pattern id="izgara" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 L0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+  <filter id="parilti" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="yumusak" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1300" height="440" rx="26" fill="url(#bg)"/>
+<rect width="1300" height="440" rx="26" fill="url(#izgara)"/>
+<rect width="1300" height="440" rx="26" fill="url(#glow)"/>
+<rect width="1300" height="440" rx="26" fill="url(#glow2)"/>
+<line x1="226.0" y1="190.0" x2="414.0" y2="190.0" stroke="#CBD5E1" stroke-opacity="0.45" stroke-width="4" stroke-linecap="round"/>
+<path d="M412,190 l-16,-10 l0,20 z" fill="#CBD5E1" opacity="0.7"/>
+<circle r="7" fill="#22D3EE" filter="url(#parilti)" opacity="0"><animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.04;0.12;1" path="M226.0,190.0 L414.0,190.0"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.04;0.050;0.110;0.12;1" dur="8s" repeatCount="indefinite"/></circle>
+<line x1="526.0" y1="190.0" x2="714.0" y2="190.0" stroke="#CBD5E1" stroke-opacity="0.45" stroke-width="4" stroke-linecap="round"/>
+<path d="M712,190 l-16,-10 l0,20 z" fill="#CBD5E1" opacity="0.7"/>
+<circle r="7" fill="#22D3EE" filter="url(#parilti)" opacity="0"><animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.08;0.19;1" path="M526.0,190.0 L714.0,190.0"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.090;0.180;0.19;1" dur="8s" repeatCount="indefinite"/></circle>
+<line x1="826.0" y1="190.0" x2="1014.0" y2="190.0" stroke="#CBD5E1" stroke-opacity="0.45" stroke-width="4" stroke-linecap="round"/>
+<path d="M1012,190 l-16,-10 l0,20 z" fill="#CBD5E1" opacity="0.7"/>
+<circle r="7" fill="#22D3EE" filter="url(#parilti)" opacity="0"><animateMotion dur="8s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.12;0.26;1" path="M826.0,190.0 L1014.0,190.0"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.12;0.130;0.250;0.26;1" dur="8s" repeatCount="indefinite"/></circle>
+<circle cx="170" cy="190" r="70" fill="#A78BFA" opacity="0.16" filter="url(#yumusak)"/><circle cx="170" cy="190" r="56" fill="#0F1535" stroke="#A78BFA" stroke-width="3" filter="url(#parilti)"/><text x="170" y="204.0" text-anchor="middle" font-size="40" font-weight="800" fill="#F8FAFC"  >w</text>
+<text x="170" y="110" text-anchor="middle" font-size="18" font-weight="700" fill="#A78BFA"  >ağırlık</text>
+<circle cx="470" cy="190" r="70" fill="#22D3EE" opacity="0.16" filter="url(#yumusak)"/><circle cx="470" cy="190" r="56" fill="#0F1535" stroke="#22D3EE" stroke-width="3" filter="url(#parilti)"/><text x="470" y="204.0" text-anchor="middle" font-size="40" font-weight="800" fill="#F8FAFC"  >z</text>
+<text x="470" y="110" text-anchor="middle" font-size="18" font-weight="700" fill="#22D3EE"  >ham skor</text>
+<circle cx="770" cy="190" r="70" fill="#34D399" opacity="0.16" filter="url(#yumusak)"/><circle cx="770" cy="190" r="56" fill="#0F1535" stroke="#34D399" stroke-width="3" filter="url(#parilti)"/><text x="770" y="204.0" text-anchor="middle" font-size="40" font-weight="800" fill="#F8FAFC"  >ŷ</text>
+<text x="770" y="110" text-anchor="middle" font-size="18" font-weight="700" fill="#34D399"  >tahmin</text>
+<circle cx="1070" cy="190" r="70" fill="#FB7185" opacity="0.16" filter="url(#yumusak)"/><circle cx="1070" cy="190" r="56" fill="#0F1535" stroke="#FB7185" stroke-width="3" filter="url(#parilti)"/><text x="1070" y="204.0" text-anchor="middle" font-size="40" font-weight="800" fill="#F8FAFC"  >L</text>
+<text x="1070" y="110" text-anchor="middle" font-size="18" font-weight="700" fill="#FB7185"  >loss</text>
+<rect x="261" y="270" width="118" height="37" rx="18" fill="#0F1535" stroke="#FB7185" stroke-width="1.8"/><text x="320.0" y="294.65" text-anchor="middle" font-size="19" font-weight="700" fill="#FB7185"  >∂z/∂w</text>
+<path d="M370,260 Q320,232 270,260" fill="none" stroke="#FB7185" stroke-opacity="0.5" stroke-width="2.5" stroke-dasharray="4 5"/>
+<rect x="561" y="270" width="118" height="37" rx="18" fill="#0F1535" stroke="#FB7185" stroke-width="1.8"/><text x="620.0" y="294.65" text-anchor="middle" font-size="19" font-weight="700" fill="#FB7185"  >∂ŷ/∂z</text>
+<path d="M670,260 Q620,232 570,260" fill="none" stroke="#FB7185" stroke-opacity="0.5" stroke-width="2.5" stroke-dasharray="4 5"/>
+<rect x="861" y="270" width="118" height="37" rx="18" fill="#0F1535" stroke="#FB7185" stroke-width="1.8"/><text x="920.0" y="294.65" text-anchor="middle" font-size="19" font-weight="700" fill="#FB7185"  >∂L/∂ŷ</text>
+<path d="M970,260 Q920,232 870,260" fill="none" stroke="#FB7185" stroke-opacity="0.5" stroke-width="2.5" stroke-dasharray="4 5"/>
+<circle cx="1070" cy="190" r="56" fill="none" stroke="#FB7185" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.45;0.510;0.5700000000000001;1" dur="8s" repeatCount="indefinite"/><animate attributeName="r" values="56;56;70;78;56" keyTimes="0;0.45;0.510;0.5700000000000001;1" dur="8s" repeatCount="indefinite"/></circle>
+<circle cx="770" cy="190" r="56" fill="none" stroke="#FB7185" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.58;0.640;0.7;1" dur="8s" repeatCount="indefinite"/><animate attributeName="r" values="56;56;70;78;56" keyTimes="0;0.58;0.640;0.7;1" dur="8s" repeatCount="indefinite"/></circle>
+<circle cx="470" cy="190" r="56" fill="none" stroke="#FB7185" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.71;0.770;0.83;1" dur="8s" repeatCount="indefinite"/><animate attributeName="r" values="56;56;70;78;56" keyTimes="0;0.71;0.770;0.83;1" dur="8s" repeatCount="indefinite"/></circle>
+<circle cx="170" cy="190" r="56" fill="none" stroke="#FB7185" stroke-width="3" opacity="0"><animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.84;0.900;0.96;1" dur="8s" repeatCount="indefinite"/><animate attributeName="r" values="56;56;70;78;56" keyTimes="0;0.84;0.900;0.96;1" dur="8s" repeatCount="indefinite"/></circle>
+<text x="650" y="336" text-anchor="middle" font-size="20" font-weight="600" fill="#CBD5E1" font-style="italic" >Hata L’den başlar, her halkada o halkanın “dişli oranıyla” çarpılarak w’ye ulaşır.</text>
+<rect x="250" y="362" width="800" height="62" rx="18" fill="#0F1535" stroke="#FB7185" stroke-width="2.2" filter="url(#parilti)"/>
+<text x="650" y="402" text-anchor="middle" font-size="28" font-weight="800" fill="#F8FAFC"  >∂L/∂w  =  ∂L/∂ŷ  ×  ∂ŷ/∂z  ×  ∂z/∂w</text>
+<rect x="1" y="1" width="1298" height="438" rx="26" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
+</svg>

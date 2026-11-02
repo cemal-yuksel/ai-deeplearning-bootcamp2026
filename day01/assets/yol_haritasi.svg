@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 440" width="1600" height="440" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B1F"/><stop offset="0.6" stop-color="#120F35"/><stop offset="1" stop-color="#1E0A33"/></linearGradient>
+  <radialGradient id="glow" cx="0.85" cy="0.45" r="0.5"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.42"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.45"><stop offset="0" stop-color="#7C3AED" stop-opacity="0.35"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <linearGradient id="vurgu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="isik" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.07"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <pattern id="izgara" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 L0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+  <filter id="parilti" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="yumusak" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1600" height="440" rx="26" fill="url(#bg)"/>
+<rect width="1600" height="440" rx="26" fill="url(#izgara)"/>
+<rect width="1600" height="440" rx="26" fill="url(#glow)"/>
+<rect width="1600" height="440" rx="26" fill="url(#glow2)"/>
+<circle cx="994" cy="322" r="1.5" fill="#E0E7FF" opacity="0.53"><animate attributeName="opacity" values="0.53;0.93;0.53" dur="5.1s" repeatCount="indefinite"/></circle>
+<circle cx="1467" cy="22" r="1.1" fill="#E0E7FF" opacity="0.46"><animate attributeName="opacity" values="0.46;0.86;0.46" dur="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="92" cy="76" r="1.1" fill="#E0E7FF" opacity="0.34"><animate attributeName="opacity" values="0.34;0.74;0.34" dur="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="869" cy="251" r="0.8" fill="#E0E7FF" opacity="0.44"><animate attributeName="opacity" values="0.44;0.84;0.44" dur="3.9s" repeatCount="indefinite"/></circle>
+<circle cx="298" cy="374" r="1.1" fill="#E0E7FF" opacity="0.21"><animate attributeName="opacity" values="0.21;0.61;0.21" dur="5.3s" repeatCount="indefinite"/></circle>
+<circle cx="229" cy="269" r="0.8" fill="#E0E7FF" opacity="0.20"><animate attributeName="opacity" values="0.20;0.60;0.20" dur="5.9s" repeatCount="indefinite"/></circle>
+<circle cx="18" cy="335" r="0.8" fill="#E0E7FF" opacity="0.50"><animate attributeName="opacity" values="0.50;0.90;0.50" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="1529" cy="236" r="1.5" fill="#E0E7FF" opacity="0.40"><animate attributeName="opacity" values="0.40;0.80;0.40" dur="3.1s" repeatCount="indefinite"/></circle>
+<circle cx="1540" cy="93" r="1.1" fill="#E0E7FF" opacity="0.27"/>
+<circle cx="581" cy="80" r="0.8" fill="#E0E7FF" opacity="0.26"/>
+<circle cx="534" cy="353" r="1.5" fill="#E0E7FF" opacity="0.15"/>
+<circle cx="1081" cy="152" r="1.1" fill="#E0E7FF" opacity="0.29"/>
+<circle cx="494" cy="302" r="0.8" fill="#E0E7FF" opacity="0.34"/>
+<circle cx="1123" cy="34" r="0.8" fill="#E0E7FF" opacity="0.53"/>
+<circle cx="575" cy="180" r="1.5" fill="#E0E7FF" opacity="0.47"/>
+<circle cx="589" cy="253" r="0.8" fill="#E0E7FF" opacity="0.33"/>
+<circle cx="1128" cy="272" r="0.8" fill="#E0E7FF" opacity="0.20"/>
+<circle cx="399" cy="354" r="1.1" fill="#E0E7FF" opacity="0.29"/>
+<circle cx="571" cy="230" r="1.1" fill="#E0E7FF" opacity="0.19"/>
+<circle cx="1192" cy="345" r="1.1" fill="#E0E7FF" opacity="0.16"/>
+<circle cx="1504" cy="48" r="1.1" fill="#E0E7FF" opacity="0.36"/>
+<circle cx="583" cy="72" r="1.1" fill="#E0E7FF" opacity="0.52"/>
+<circle cx="871" cy="141" r="1.1" fill="#E0E7FF" opacity="0.27"/>
+<circle cx="1272" cy="273" r="1.5" fill="#E0E7FF" opacity="0.43"/>
+<circle cx="1585" cy="78" r="0.8" fill="#E0E7FF" opacity="0.18"/>
+<circle cx="959" cy="398" r="0.8" fill="#E0E7FF" opacity="0.24"/>
+<circle cx="948" cy="357" r="1.1" fill="#E0E7FF" opacity="0.41"/>
+<circle cx="240" cy="421" r="1.5" fill="#E0E7FF" opacity="0.16"/>
+<circle cx="790" cy="362" r="0.8" fill="#E0E7FF" opacity="0.54"/>
+<circle cx="901" cy="66" r="1.1" fill="#E0E7FF" opacity="0.19"/>
+<circle cx="697" cy="73" r="1.1" fill="#E0E7FF" opacity="0.27"/>
+<circle cx="726" cy="430" r="0.8" fill="#E0E7FF" opacity="0.54"/>
+<circle cx="727" cy="215" r="1.5" fill="#E0E7FF" opacity="0.28"/>
+<circle cx="443" cy="207" r="0.8" fill="#E0E7FF" opacity="0.20"/>
+<circle cx="1309" cy="233" r="0.8" fill="#E0E7FF" opacity="0.40"/>
+<circle cx="799" cy="152" r="0.8" fill="#E0E7FF" opacity="0.35"/>
+<circle cx="824" cy="240" r="1.5" fill="#E0E7FF" opacity="0.29"/>
+<circle cx="1252" cy="335" r="1.5" fill="#E0E7FF" opacity="0.38"/>
+<circle cx="64" cy="138" r="1.5" fill="#E0E7FF" opacity="0.43"/>
+<circle cx="454" cy="214" r="1.5" fill="#E0E7FF" opacity="0.44"/>
+<circle cx="1522" cy="153" r="0.8" fill="#E0E7FF" opacity="0.38"/>
+<circle cx="28" cy="240" r="1.1" fill="#E0E7FF" opacity="0.28"/>
+<circle cx="442" cy="131" r="1.5" fill="#E0E7FF" opacity="0.41"/>
+<circle cx="1270" cy="156" r="1.5" fill="#E0E7FF" opacity="0.29"/>
+<circle cx="1491" cy="182" r="0.8" fill="#E0E7FF" opacity="0.50"/>
+<circle cx="1098" cy="420" r="1.1" fill="#E0E7FF" opacity="0.36"/>
+<circle cx="846" cy="80" r="1.1" fill="#E0E7FF" opacity="0.52"/>
+<circle cx="764" cy="300" r="1.5" fill="#E0E7FF" opacity="0.42"/>
+<circle cx="668" cy="269" r="1.5" fill="#E0E7FF" opacity="0.36"/>
+<circle cx="1490" cy="137" r="1.5" fill="#E0E7FF" opacity="0.46"/>
+<text x="800" y="62" text-anchor="middle" font-size="20" font-weight="800" fill="#A78BFA"  letter-spacing="8">GÜN 1 YOL HARİTASI</text>
+<text x="800" y="98" text-anchor="middle" font-size="20" font-weight="500" fill="#CBD5E1" font-style="italic" >14 durak · 4 perde: Perceptron → ANN → Öğrenme → Vanishing Gradient</text>
+<polyline points="90,250 199,293 308,304 418,274 527,226 636,196 745,207 855,251 964,294 1073,303 1182,273 1292,225 1401,196 1510,208" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="90,250 199,293 308,304 418,274 527,226 636,196 745,207 855,251 964,294 1073,303 1182,273 1292,225 1401,196 1510,208" fill="none" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="6 12" stroke-linecap="round"><animate attributeName="stroke-dashoffset" from="0" to="-72" dur="3s" repeatCount="indefinite"/></polyline>
+<circle cx="90" cy="250" r="21" fill="#0F1535" stroke="#A78BFA" stroke-width="2.5" filter="url(#parilti)"/><text x="90" y="257" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >1</text><text x="90" y="196" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Büyük</text><text x="90" y="214" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Resim</text><circle cx="199" cy="293" r="21" fill="#0F1535" stroke="#A78BFA" stroke-width="2.5" filter="url(#parilti)"/><text x="199" y="300" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >2</text><text x="199" y="239" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Perceptron</text><text x="199" y="257" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Anatomisi</text><circle cx="308" cy="304" r="21" fill="#0F1535" stroke="#A78BFA" stroke-width="2.5" filter="url(#parilti)"/><text x="308" y="311" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >3</text><text x="308" y="352" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Ağırlıklı</text><text x="308" y="370" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Toplam</text><circle cx="418" cy="274" r="21" fill="#0F1535" stroke="#A78BFA" stroke-width="2.5" filter="url(#parilti)"/><text x="418" y="281" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >4</text><text x="418" y="322" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Bias ve</text><text x="418" y="340" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Eşik</text><circle cx="527" cy="226" r="21" fill="#0F1535" stroke="#A78BFA" stroke-width="2.5" filter="url(#parilti)"/><text x="527" y="233" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >5</text><text x="527" y="274" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Aktivasyon</text><circle cx="636" cy="196" r="21" fill="#0F1535" stroke="#A78BFA" stroke-width="2.5" filter="url(#parilti)"/><text x="636" y="203" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >6</text><text x="636" y="142" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Doğrusal</text><text x="636" y="160" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Sınır</text><circle cx="745" cy="207" r="21" fill="#0F1535" stroke="#22D3EE" stroke-width="2.5" filter="url(#parilti)"/><text x="745" y="214" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >7</text><text x="745" y="153" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Çok Katmanlı</text><text x="745" y="171" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Ağ</text><circle cx="855" cy="251" r="21" fill="#0F1535" stroke="#22D3EE" stroke-width="2.5" filter="url(#parilti)"/><text x="855" y="258" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >8</text><text x="855" y="215" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Forward</text><circle cx="964" cy="294" r="21" fill="#0F1535" stroke="#22D3EE" stroke-width="2.5" filter="url(#parilti)"/><text x="964" y="301" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >9</text><text x="964" y="258" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Loss</text><circle cx="1073" cy="303" r="21" fill="#0F1535" stroke="#FB7185" stroke-width="2.5" filter="url(#parilti)"/><text x="1073" y="310" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >10</text><text x="1073" y="351" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Gradient</text><text x="1073" y="369" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Descent</text><circle cx="1182" cy="273" r="21" fill="#0F1535" stroke="#FB7185" stroke-width="2.5" filter="url(#parilti)"/><text x="1182" y="280" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >11</text><text x="1182" y="321" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Backprop</text><circle cx="1292" cy="225" r="21" fill="#0F1535" stroke="#FBBF24" stroke-width="2.5" filter="url(#parilti)"/><text x="1292" y="232" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >12</text><text x="1292" y="273" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Vanishing</text><text x="1292" y="291" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Gradient</text><circle cx="1401" cy="196" r="21" fill="#0F1535" stroke="#FBBF24" stroke-width="2.5" filter="url(#parilti)"/><text x="1401" y="203" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >13</text><text x="1401" y="142" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Çözüm</text><text x="1401" y="160" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Yolları</text><circle cx="1510" cy="208" r="21" fill="#0F1535" stroke="#34D399" stroke-width="2.5" filter="url(#parilti)"/><text x="1510" y="215" text-anchor="middle" font-size="18" font-weight="800" fill="#F8FAFC"  >14</text><text x="1510" y="256" text-anchor="middle" font-size="15" font-weight="600" fill="#CBD5E1"  >Kapanış</text>
+<circle r="9" fill="#FBBF24" filter="url(#parilti)"><animateMotion dur="14s" repeatCount="indefinite" path="M90,250 L199,293 L308,304 L418,274 L527,226 L636,196 L745,207 L855,251 L964,294 L1073,303 L1182,273 L1292,225 L1401,196 L1510,208"/></circle>
+<text x="800" y="412" text-anchor="middle" font-size="19" font-weight="600" fill="#CBD5E1"  >🧠 Tek nöron  →  🏗️ ağ  →  🔁 öğrenme  →  🤫 kaybolan gradyan  →  🛠️ çözüm</text>
+<rect x="1" y="1" width="1598" height="438" rx="26" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
+</svg>
