@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 300" width="1600" height="300" font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B1F"/><stop offset="0.6" stop-color="#120F35"/><stop offset="1" stop-color="#1E0A33"/></linearGradient>
+  <radialGradient id="glow" cx="0.85" cy="0.45" r="0.5"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.42"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow2" cx="0.05" cy="1" r="0.45"><stop offset="0" stop-color="#A78BFA" stop-opacity="0.35"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+  <linearGradient id="vurgu" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="isik" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.07"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <pattern id="izgara" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 L0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/></pattern>
+  <filter id="parilti" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="parilti2" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="yumusak" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<rect width="1600" height="300" rx="26" fill="url(#bg)"/>
+<rect width="1600" height="300" rx="26" fill="url(#izgara)"/>
+<rect width="1600" height="300" rx="26" fill="url(#glow)"/>
+<rect width="1600" height="300" rx="26" fill="url(#glow2)"/>
+<circle cx="48" cy="109" r="1.5" fill="#E0E7FF" opacity="0.44"><animate attributeName="opacity" values="0.44;0.84;0.44" dur="3.7s" repeatCount="indefinite"/></circle>
+<circle cx="21" cy="72" r="0.8" fill="#E0E7FF" opacity="0.49"><animate attributeName="opacity" values="0.49;0.89;0.49" dur="2.7s" repeatCount="indefinite"/></circle>
+<circle cx="309" cy="68" r="0.8" fill="#E0E7FF" opacity="0.39"><animate attributeName="opacity" values="0.39;0.79;0.39" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="1329" cy="39" r="0.8" fill="#E0E7FF" opacity="0.37"><animate attributeName="opacity" values="0.37;0.77;0.37" dur="3.7s" repeatCount="indefinite"/></circle>
+<circle cx="668" cy="95" r="1.5" fill="#E0E7FF" opacity="0.26"><animate attributeName="opacity" values="0.26;0.66;0.26" dur="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="920" cy="282" r="0.8" fill="#E0E7FF" opacity="0.25"><animate attributeName="opacity" values="0.25;0.65;0.25" dur="3.0s" repeatCount="indefinite"/></circle>
+<circle cx="1172" cy="28" r="0.8" fill="#E0E7FF" opacity="0.16"><animate attributeName="opacity" values="0.16;0.56;0.16" dur="4.9s" repeatCount="indefinite"/></circle>
+<circle cx="261" cy="91" r="1.1" fill="#E0E7FF" opacity="0.36"><animate attributeName="opacity" values="0.36;0.76;0.36" dur="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="155" cy="187" r="1.5" fill="#E0E7FF" opacity="0.52"><animate attributeName="opacity" values="0.52;0.92;0.52" dur="3.0s" repeatCount="indefinite"/></circle>
+<circle cx="201" cy="28" r="1.5" fill="#E0E7FF" opacity="0.4"/>
+<circle cx="1129" cy="252" r="1.5" fill="#E0E7FF" opacity="0.2"/>
+<circle cx="457" cy="84" r="0.8" fill="#E0E7FF" opacity="0.47"/>
+<circle cx="381" cy="28" r="1.5" fill="#E0E7FF" opacity="0.29"/>
+<circle cx="305" cy="244" r="0.8" fill="#E0E7FF" opacity="0.23"/>
+<circle cx="913" cy="51" r="0.8" fill="#E0E7FF" opacity="0.21"/>
+<circle cx="28" cy="74" r="1.5" fill="#E0E7FF" opacity="0.24"/>
+<circle cx="156" cy="249" r="1.5" fill="#E0E7FF" opacity="0.36"/>
+<circle cx="863" cy="288" r="1.1" fill="#E0E7FF" opacity="0.35"/>
+<circle cx="1481" cy="228" r="1.1" fill="#E0E7FF" opacity="0.16"/>
+<circle cx="1571" cy="20" r="1.5" fill="#E0E7FF" opacity="0.46"/>
+<circle cx="1071" cy="275" r="1.5" fill="#E0E7FF" opacity="0.42"/>
+<circle cx="1193" cy="22" r="1.1" fill="#E0E7FF" opacity="0.49"/>
+<circle cx="415" cy="256" r="1.1" fill="#E0E7FF" opacity="0.2"/>
+<circle cx="402" cy="132" r="1.5" fill="#E0E7FF" opacity="0.18"/>
+<circle cx="1261" cy="164" r="0.8" fill="#E0E7FF" opacity="0.36"/>
+<circle cx="350" cy="45" r="1.5" fill="#E0E7FF" opacity="0.15"/>
+<circle cx="1420" cy="116" r="0.8" fill="#E0E7FF" opacity="0.29"/>
+<circle cx="1116" cy="99" r="0.8" fill="#E0E7FF" opacity="0.18"/>
+<circle cx="440" cy="125" r="0.8" fill="#E0E7FF" opacity="0.37"/>
+<circle cx="1416" cy="50" r="1.5" fill="#E0E7FF" opacity="0.22"/>
+<circle cx="119" cy="205" r="1.5" fill="#E0E7FF" opacity="0.41"/>
+<circle cx="1049" cy="279" r="0.8" fill="#E0E7FF" opacity="0.33"/>
+<circle cx="1460" cy="257" r="0.8" fill="#E0E7FF" opacity="0.18"/>
+<circle cx="602" cy="52" r="1.1" fill="#E0E7FF" opacity="0.23"/>
+<circle cx="154" cy="24" r="1.1" fill="#E0E7FF" opacity="0.17"/>
+<circle cx="452" cy="202" r="1.5" fill="#E0E7FF" opacity="0.44"/>
+<circle cx="1263" cy="234" r="1.1" fill="#E0E7FF" opacity="0.18"/>
+<circle cx="1058" cy="76" r="1.5" fill="#E0E7FF" opacity="0.28"/>
+<circle cx="1192" cy="88" r="1.1" fill="#E0E7FF" opacity="0.51"/>
+<circle cx="367" cy="146" r="1.1" fill="#E0E7FF" opacity="0.48"/>
+<circle cx="544" cy="186" r="1.5" fill="#E0E7FF" opacity="0.48"/>
+<circle cx="84" cy="99" r="0.8" fill="#E0E7FF" opacity="0.21"/>
+<circle cx="261" cy="165" r="1.5" fill="#E0E7FF" opacity="0.4"/>
+<circle cx="1390" cy="166" r="0.8" fill="#E0E7FF" opacity="0.17"/>
+<circle cx="691" cy="68" r="0.8" fill="#E0E7FF" opacity="0.45"/>
+<circle cx="1010" cy="63" r="1.1" fill="#E0E7FF" opacity="0.24"/>
+<circle cx="1429" cy="42" r="1.1" fill="#E0E7FF" opacity="0.19"/>
+<circle cx="669" cy="168" r="1.1" fill="#E0E7FF" opacity="0.31"/>
+<rect x="-500" y="0" width="420" height="300" fill="url(#isik)" transform="skewX(-20)"><animateTransform attributeName="transform" type="translate" values="0 0;2300 0" dur="9s" repeatCount="indefinite" additive="sum"/></rect>
+<text x="64" y="212" font-size="176" font-weight="800" fill="url(#vurgu)" letter-spacing="-6" filter="url(#parilti)" opacity="0.95">04</text>
+<rect x="338" y="62" width="3" height="176" rx="1.5" fill="#A78BFA" opacity="0.7"/>
+<text x="376" y="92" font-size="17" font-weight="700" fill="#A78BFA" letter-spacing="4">BÖLÜM 04 / 11  ·  GÜN 2</text>
+<text x="374" y="169" font-size="54" font-weight="800" fill="#F8FAFC" letter-spacing="-1">Tanh</text>
+<text x="376" y="218" font-size="26" font-weight="500" fill="#CBD5E1" font-style="italic">Sigmoid’in 0 merkezli kuzeni</text>
+<line x1="380" y1="258" x2="1230" y2="258" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="4" stroke-linecap="round"/>
+<line x1="380" y1="258" x2="635" y2="258" stroke="#A78BFA" stroke-width="4" stroke-linecap="round" filter="url(#parilti)"/>
+<circle cx="380" cy="258" r="5" fill="#A78BFA" stroke="#A78BFA" stroke-opacity="0.9" stroke-width="1.5"/><circle cx="465" cy="258" r="5" fill="#A78BFA" stroke="#A78BFA" stroke-opacity="0.9" stroke-width="1.5"/><circle cx="550" cy="258" r="5" fill="#A78BFA" stroke="#A78BFA" stroke-opacity="0.9" stroke-width="1.5"/><circle cx="635" cy="258" r="5" fill="#A78BFA" stroke="#A78BFA" stroke-opacity="0.9" stroke-width="1.5"/><circle cx="720" cy="258" r="5" fill="#1E2547" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5"/><circle cx="805" cy="258" r="5" fill="#1E2547" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5"/><circle cx="890" cy="258" r="5" fill="#1E2547" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5"/><circle cx="975" cy="258" r="5" fill="#1E2547" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5"/><circle cx="1060" cy="258" r="5" fill="#1E2547" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5"/><circle cx="1145" cy="258" r="5" fill="#1E2547" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5"/><circle cx="1230" cy="258" r="5" fill="#1E2547" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5"/>
+<circle cx="635" cy="258" r="9" fill="#A78BFA" filter="url(#parilti)"><animate attributeName="r" values="8;12;8" dur="2.2s" repeatCount="indefinite"/></circle>
+<circle cx="1430" cy="150" r="96" fill="#A78BFA" opacity="0.28" filter="url(#yumusak)"/>
+<circle cx="1430" cy="150" r="82" fill="#0F1535" stroke="#A78BFA" stroke-width="2.5" filter="url(#parilti)"/>
+<circle cx="1430" cy="150" r="104" fill="none" stroke="#A78BFA" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="4 14"><animateTransform attributeName="transform" type="rotate" from="0 1430 150" to="360 1430 150" dur="24s" repeatCount="indefinite"/></circle>
+<g><circle cx="1430" cy="28" r="6" fill="#A78BFA" filter="url(#parilti)"/><animateTransform attributeName="transform" type="rotate" from="0 1430 150" to="-360 1430 150" dur="9s" repeatCount="indefinite"/></g>
+<text x="1430" y="180" text-anchor="middle" font-size="84" font-family="'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif" >🌗</text>
+<rect x="1" y="1" width="1598" height="298" rx="26" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
+</svg>
